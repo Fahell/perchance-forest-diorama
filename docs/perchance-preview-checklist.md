@@ -29,7 +29,7 @@ https://fahell.github.io/perchance-forest-diorama/main.bundle.js
 ```
 
 5. Teste a resposta direta do arquivo. Ela deve ser HTTP 200 e JavaScript, não uma página HTML de erro.
-6. Copie o SHA completo do commit publicado. Para esta publicação, o SHA é `e841d64a6efbec49d7eceaebf4746f16911b4262`; em futuras publicações, substitua-o pelo novo SHA.
+6. Copie o SHA completo do commit publicado. Para esta publicação, o SHA é `ad15acc7b74b918fc2546197846f7efd16d16d54`; em futuras publicações, substitua-o pelo novo SHA.
 
 O workflow usa `actions/configure-pages`, `actions/upload-pages-artifact` e `actions/deploy-pages`, com permissões Pages/OIDC e `npm ci`, typecheck, testes e build antes do deploy. O repositório precisa ter Pages habilitado com GitHub Actions e um remote GitHub configurado.
 
@@ -52,7 +52,7 @@ Use a URL Pages real abaixo e substitua somente `FULL_COMMIT_SHA` pelo SHA compl
 
 ```html
 <script type="module">
-  import "https://fahell.github.io/perchance-forest-diorama/main.bundle.js?rev=e841d64a6efbec49d7eceaebf4746f16911b4262";
+  import "https://fahell.github.io/perchance-forest-diorama/main.bundle.js?rev=ad15acc7b74b918fc2546197846f7efd16d16d54";
 </script>
 ```
 

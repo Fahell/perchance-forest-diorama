@@ -2,7 +2,7 @@
 
 **Projeto:** `perchance-forest-diorama`  
 **Spec:** `docs/hd-2d-perchance-scene-spec.md`  
-**Status:** execução iniciada; Fases 1 e 2 parcialmente implementadas; primeiro deploy Pages concluído  
+**Status:** execução iniciada; Fases 1 e 2 parcialmente implementadas; primeiro deploy Pages concluído; bootstrap embed corrigido no commit `ad15acc7b74b918fc2546197846f7efd16d16d54`  
 **Data:** 2026-08-03
 
 ## 1. Objetivo e limites
@@ -154,7 +154,7 @@ Arquivos novos/alterados: `ui/app-shell.ts`, `preparation-panel.ts`, `dialogue-u
 
 - Workflow criado em `.github/workflows/build-and-deploy.yml` com `npm ci`, `npm run typecheck`, `npm test`, `npm run build`, configuração Pages e deploy de `dist`; falta apenas configurar o remote/Pages e executar o primeiro push.
 - Confirmar bundle único, MIME JavaScript, URL pública e SHA injetado.
-- Checklist criado em `docs/perchance-preview-checklist.md`; primeiro deploy concluído no commit `e841d64a6efbec49d7eceaebf4746f16911b4262`, pronto para teste no Preview com `?rev=` correspondente.
+- Checklist criado em `docs/perchance-preview-checklist.md`; primeiro deploy concluído; o bundle atual para teste está no commit `ad15acc7b74b918fc2546197846f7efd16d16d54`, pronto para teste no Preview com `?rev=` correspondente.
 - Adotar uma infraestrutura de testes leve antes dos testes unitários (preferencialmente Vitest, se aprovado como dependência do novo projeto) e executar testes de parser, state machine, normalizer, cache e fila; mocks de plugins ficam restritos aos testes unitários.
 - Fazer teste real sem mock para bridge, geração e Turnstile; classificar warnings Cloudflare somente pelo estado terminal.
 - Executar matriz manual: cache vazio/cheio, regeneração, falha de serviço, quota, resize, toque, teclado, aba oculta e reduced motion.

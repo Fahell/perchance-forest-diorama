@@ -49,8 +49,8 @@ O procedimento completo, incluindo os dois probes manuais e a classificação de
 
 ```html
 <script type="module">
-  import "https://fahell.github.io/perchance-forest-diorama/main.bundle.js?rev=FULL_COMMIT_SHA";
+  import "https://fahell.github.io/perchance-forest-diorama/main.bundle.js?rev=e841d64a6efbec49d7eceaebf4746f16911b4262";
 </script>
 ```
 
-As opções e formas de retorno dos plugins devem ser confirmadas novamente no Preview antes de virarem contratos estáveis. O repositório remoto é `https://github.com/Fahell/perchance-forest-diorama`.
+As opções e formas de retorno dos plugins devem ser confirmadas novamente no Preview antes de virarem contratos estáveis. O repositório remoto é `https://github.com/Fahell/perchance-forest-diorama` e o bundle publicado está em `https://fahell.github.io/perchance-forest-diorama/`. Após cada novo push, atualize o SHA em `?rev=`.

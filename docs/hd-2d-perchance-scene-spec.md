@@ -709,7 +709,7 @@ No HTML/CSS/JS do gerador:
 
 ```html
 <script type="module">
-  import "https://fahell.github.io/perchance-forest-diorama/main.bundle.js?rev=FULL_COMMIT_SHA";
+  import "https://fahell.github.io/perchance-forest-diorama/main.bundle.js?rev=e841d64a6efbec49d7eceaebf4746f16911b4262";
 </script>
 ```
 

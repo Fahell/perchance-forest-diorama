@@ -1,0 +1,26 @@
+{
+  "name": "perchance-forest-diorama",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Authorial HD-2D forest diorama for Perchance plugin integration.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/three": "^0.179.0",
+    "fake-indexeddb": "^6.2.5",
+    "happy-dom": "^20.11.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2",
+    "vitest": "^4.1.10"
+  }
+}
